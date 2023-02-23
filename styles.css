@@ -1,0 +1,47 @@
+* {
+    /* outline: 1px solid blue; */
+    -webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+	cursor: default;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid black;
+}
+
+.row {
+
+}
+
+.div {
+
+}
+
+.hover:hover {
+    background-color: blue;
+}
+
+#menu {
+    position: absolute;
+    top: 1vh;
+    left: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
